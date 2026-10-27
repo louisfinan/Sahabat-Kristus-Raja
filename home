@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahabat Kristus Raja | Medan</title>
+  <meta name="description" content="Sahabat Kristus Raja, media informasi, pewartaan, dokumentasi, dan kegiatan Paroki Kristus Raja Medan.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #243044;
+      background: #f7f8fc;
+    }
+
+    header {
+      background: #123b70;
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 85px 20px;
+      color: white;
+      background: linear-gradient(135deg, #123b70, #2876a8);
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 25px;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #f4c95d;
+      color: #17365e;
+      padding: 12px 24px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 55px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 28px;
+      color: #123b70;
+      font-size: 29px;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 16px #172b4d12;
+    }
+
+    .card h3 {
+      color: #123b70;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      text-align: center;
+      background: #eaf1fa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      background: #102d50;
+      color: white;
+      font-size: 14px;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #f4c95d;
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">✝ Sahabat Kristus Raja</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#dokumentasi">Dokumentasi</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>Sahabat Kristus Raja</h1>
+      <p>
+        Media informasi, pewartaan iman, dan dokumentasi kegiatan
+        umat Katolik Paroki Kristus Raja Medan.
+      </p>
+      <a class="button" href="#kegiatan">Jelajahi Kegiatan</a>
+    </section>
+
+    <section id="tentang">
+      <h2 class="section-title">Tentang Kami</h2>
+      <div class="intro">
+        <p>
+          Selamat datang di Sahabat Kristus Raja.
+          Kami hadir sebagai sarana komunikasi dan dokumentasi untuk
+          berbagi kabar, kegiatan, pengalaman iman, serta semangat
+          persaudaraan umat Paroki Kristus Raja Medan.
+        </p>
+        <p>
+          Semoga media ini membantu kita semakin dekat dengan Kristus,
+          bertumbuh dalam iman, dan melayani sesama dengan kasih.
+        </p>
+      </div>
+    </section>
+
+    <section id="kegiatan">
+      <h2 class="section-title">Informasi & Kegiatan</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>⛪ Jadwal Misa</h3>
+          <p>
+            Informasi jadwal perayaan Ekaristi dan kegiatan liturgi
+            paroki. Silakan periksa pengumuman resmi paroki untuk
+            jadwal terbaru.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>🙏 Doa & Pendalaman Iman</h3>
+          <p>
+            Berbagi renungan, doa lingkungan, pendalaman Kitab Suci,
+            dan pengalaman perjalanan iman.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>📸 Dokumentasi</h3>
+          <p>
+            Mengabadikan berbagai kegiatan gereja, kebersamaan umat,
+            perayaan iman, dan pelayanan kasih.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>🚌 Ziarah & Perjalanan</h3>
+          <p>
+            Informasi perjalanan ziarah, kunjungan ke tempat-tempat
+            rohani, dan pengalaman peziarah.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="dokumentasi">
+      <h2 class="section-title">Galeri & Berita</h2>
+      <div class="intro">
+        <p>
+          Nantikan foto, video, berita, dan cerita kegiatan
+          Sahabat Kristus Raja di halaman ini.
+        </p>
+        <p>
+          Galeri kegiatan dan artikel akan ditambahkan setelah
+          materi dokumentasi tersedia.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="kontak">
+      <h2 class="section-title">Tetap Terhubung</h2>
+      <p>
+        Mari bersama-sama mewartakan kasih Kristus dan membangun
+        persaudaraan dalam kehidupan menggereja.
+      </p>
+      <p style="margin-top: 12px;">
+        <strong>Sahabat Kristus Raja – Paroki Kristus Raja Medan</strong>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Sahabat Kristus Raja. Media informasi dan dokumentasi.</p>
+  </footer>
+</body>
+</html>
